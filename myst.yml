@@ -2,14 +2,67 @@
 version: 1
 project:
   id: 5949d906-8517-4e0d-ae28-526d86d3b18c
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
+  title: Gaussian mixture models as a proxy for interacting language models
+  subject: Paper
+  venue: 
+    title: Journal of Awesome Research Papers
+  open_access: true
+  # doi: doi
   github: https://github.com/edlwang/GMMsProxyWebpage
+  date: 2025-03-29
+  authors:
+    - name: Edward Wang
+      affiliation: jhu-ams
+      orcid: https://orcid.org/0000-0003-3761-2564
+      email: ewang43@jhu.edu
+      github: edlwang
+      roles: Writing - original draft, Data curation, Formal analysis, Investigation, Methodology, Software, Visualization, Writing - review & editing
+      url: https://edlwang.com
+    - name: Avanti Athreya
+      affiliation: jhu-ams
+      email: dathrey1@jhu.edu
+      roles: Conceptualization, Formal analysis, Methodology, Project Administration, Supervision, Writing - review & editing
+    - name: Vince Lyzinski
+      affiliation: umd-math
+      email: vlyzinsk@umd.edu
+      url: https://www.math.umd.edu/~vlyzinsk/
+      roles: Conceptualization, Formal analysis, Methodology
+    - name: Tim Wang
+      affiliation: jhu-ams
+      email: twang147@jhu.edu
+      roles: Conceptualization, Data curation, Formal analysis, Investigation, Software, Visualization
+    - name: Carey Priebe
+      affiliation: jhu-ams
+      email: cep@jhu.edu
+      url: https://www.ams.jhu.edu/~priebe/
+      roles: Conceptualization, Funding acquisition, Resources, Supervision
+  affiliations:
+    - id: jhu-ams
+      institution: Johns Hopkins University
+      ror: https://ror.org/00za53h95
+      isni: 0000 0001 2171 9311
+      department: Department of Applied Mathematics and Statistics
+      address: 3100 Wyman Park Drive
+      city: Baltimore
+      state: Maryland
+      country: United States of America
+      postal_code: 21218
+      phone: 410 516 7395
+    - id: umd-math
+      institution: University of Maryland
+      ror: https://ror.org/047s2c258
+      isni: 0000 0001 0941 7177
+      department: Department of Mathematics
+      address: 4176 Campus Drive - William E. Kirwin Hall
+      city: College Park
+      state: Maryland
+      country: United States of America
+      postal_code: 20742-4015
+      phone: 301 405 5047
+  banner: ./images/low_poly.png 
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
-  template: book-theme
+  template: article-theme
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
