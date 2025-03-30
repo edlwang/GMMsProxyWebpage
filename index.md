@@ -46,7 +46,7 @@ import pickle
 
 Collapsible code block see [](#gmm-code-collapsible)
 
-:::{dropdown} Code
+:::{dropdown} Code Block 1
 ```{code} python
 :label: gmm-code-collapsible
 :caption: Simulating interacting agents using GMMs
