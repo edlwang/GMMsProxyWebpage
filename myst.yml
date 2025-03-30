@@ -1,0 +1,15 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 5949d906-8517-4e0d-ae28-526d86d3b18c
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/edlwang/GMMsProxyWebpage
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
